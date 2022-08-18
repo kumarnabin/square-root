@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Program Started");
-        System.out.println("Enter Integer Number");
+        System.out.println("Enter Float Number");
         Scanner scanner = new Scanner(System.in);
         String number = scanner.nextLine();
         // split by .
@@ -34,6 +34,7 @@ public class Main {
 //        }
 
         System.out.println(squareRoot(numbers1, numbers2));
+        System.out.println("Program Ended");
 
     }
 
